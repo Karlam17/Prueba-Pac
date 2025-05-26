@@ -56,7 +56,7 @@ ui <- fluidPage(
 
 # Server del dashboard
 server <- function(input, output, session) {
-  archivo <- "C:/Users/mercy/OneDrive/Escritorio/Maestria/Herramientas Informaticas/base_union.xlsx"
+  archivo <- "C:/Users/mercy/OneDrive/Escritorio/Prueba-Pac/base_union.xlsx"
   base_union <- read_excel(archivo)
   
   # Asegúrate de que el campo "año" esté en formato numérico
